@@ -29,7 +29,7 @@ public class ControllerCliente {
     }
     
     private boolean validarCuentas(){
-        if(this.cliente.getCuentas().size()<2){
+        if(this.cliente.getCuentas().size()<=2){
             return true;
         }else{
             return false;
